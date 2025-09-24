@@ -1,4 +1,6 @@
-class Vehiculo {
+import { HojaRuta } from "./HojaRuta";
+
+export class Vehiculo {
     private patente: string;
     private marca: string;
     private modelo: string;

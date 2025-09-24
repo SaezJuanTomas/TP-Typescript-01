@@ -1,4 +1,6 @@
-class Detalle {
+import { HojaRuta } from "./HojaRuta";
+
+export class Detalle {
     private kmSalida: number;
     private kmRegreso: number;
     private horaSalida: number;

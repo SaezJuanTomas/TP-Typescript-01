@@ -1,4 +1,7 @@
-class HojaRuta {
+import { Detalle } from './Detalle';
+import { Vehiculo } from './Vehiculo';
+
+export class HojaRuta {
     private fecha: Date;
     private numero: number;
     private Vehiculo: Vehiculo;

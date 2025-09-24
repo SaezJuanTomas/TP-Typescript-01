@@ -1,6 +1,11 @@
+import { Vehiculo } from './Vehiculo';
+import { HojaRuta } from './HojaRuta';
+import { Detalle } from './Detalle';
+
 class TestA {
     public static main(): void {
         // Crear instancia de Vehiculo
+
         const vehiculo = new Vehiculo("ABC123", "Toyota", "Corolla");
 
         // Crear 3 instancias de HojaRuta
